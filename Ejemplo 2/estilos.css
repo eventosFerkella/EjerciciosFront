@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.noticias {
+    background-color: darkred;
+    min-height: 100vh;
+    display: flex;
+}
+
+.noticias__menu {
+    background-color: yellowgreen;
+    width: 240px;
+}
+
+.noticias__contenedor {
+    background-color: wheat;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.noticias__contenedor > div {
+    width: 200px;
+    background-color: tomato;
+    height: 180px;
+}
