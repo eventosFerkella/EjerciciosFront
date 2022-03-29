@@ -23,3 +23,17 @@ console.log(objPersona["direccion"])
 objPersona.platosFavoritos.forEach((plato,i)=>{
     console.log(`Plato ${i+1}: ${plato}`);
 })
+//Modificar un atributo de un objeto
+objPersona.nombre = "Jorge Luis";
+console.log(objPersona);
+//Objetos con atributos en forma de STRING
+//nro-llantas es un objeto stringfied y solo se puede de esta manera
+const objVehiculo = {
+    "marca": "Mazda",
+    "color": "Cafe",
+    "nro-llantas": 4
+}
+console.log(objVehiculo["nro-llantas"]);
+//Creando nuevos atributos a un objeto ya establecido
+objVehiculo.modelo= "CX-3";
+console.log(objVehiculo)
